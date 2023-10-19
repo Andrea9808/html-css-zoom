@@ -8,22 +8,39 @@
     display: flex;
 }
 
-.container_main{
-    width: 100%;
+/* stili header */
+
+.container_header{
+    background-color: black;
+}
+
+
+/* stili main */
+
+main{
     background-color: black;
     height: calc(100vh - 70px);
 }
 
 .schermata {
-    width: calc(100%/3);
-    height: 100px;
-    border: solid 1px white;
+    width: calc(100%/7);
+    margin: 0 5px;
+    position: relative;
 }
+
+img{
+    width: 213px;
+    height: 100px;
+}
+
 
 .micr{
     color: white;
     background-color:gray;
-    opacity: 0.3;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
 }
 
 
