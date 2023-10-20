@@ -45,24 +45,23 @@ div .fa-window-maximize{
 
 main{
     background-color: black;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 170px);
     overflow-y: auto;
     padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.container_main{
-    margin: 0 15px;
-}
 
 .schermata {
-    flex-wrap: wrap;
-    width: calc(100%/7);
-    margin: 0 5px;
+    margin: 0 15px;
     position: relative;
 }
 
 img{
-    width: 100%;
+    width: 150px;
     height: 100px;
 }
 
@@ -85,8 +84,6 @@ img{
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    z-index: 2;
     width: 100%;
     bottom: 0;
 }
@@ -117,5 +114,4 @@ img{
     align-items: center;
     width: 90px;
     height: 70px;
-    
 }
